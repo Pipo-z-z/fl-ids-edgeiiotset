@@ -1,0 +1,59 @@
+{
+ "config": {
+  "clients": [
+   "Temperature_and_Humidity",
+   "Distance",
+   "Water_Level",
+   "phValue",
+   "Soil_Moisture"
+  ],
+  "label_level": "attack",
+  "test_size": 0.2,
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "rounds": 30,
+  "local_epochs": 2,
+  "lr": 0.001,
+  "batch": 256,
+  "hidden": [
+   64,
+   32
+  ],
+  "mus": [
+   0.01,
+   0.1
+  ],
+  "attack_assignment": null
+ },
+ "asignacion_ataques": {
+  "Temperature_and_Humidity": [
+   "Backdoor",
+   "OS_Fingerprinting",
+   "Uploading"
+  ],
+  "Distance": [
+   "DDoS_HTTP_Flood",
+   "Password",
+   "Vulnerability_scanner"
+  ],
+  "Water_Level": [
+   "DDoS_ICMP_Flood",
+   "Port_Scanning",
+   "XSS"
+  ],
+  "phValue": [
+   "DDoS_TCP_SYN_Flood",
+   "Ransomware"
+  ],
+  "Soil_Moisture": [
+   "DDoS_UDP_Flood",
+   "SQL_injection"
+  ]
+ },
+ "parametros_modelo": 4590
+}

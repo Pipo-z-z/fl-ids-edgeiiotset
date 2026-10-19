@@ -1,0 +1,6 @@
+﻿category,flujos,duracion_mediana_s,paquetes_medianos,bytes_medianos
+DDoS,15135,63.912113,7.0,420.0
+Inyeccion,10470,0.036638975,6.0,491.0
+Malware,16470,0.11712146,6.0,406.0
+Normal,131120,0.03524804,8.0,384.0
+Reconocimiento,2923,0.08472586,12.0,1774.0

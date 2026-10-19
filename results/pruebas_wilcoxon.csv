@@ -1,0 +1,10 @@
+﻿comparación,métrica,n pares,media A,media B,mediana Δ (B−A),W,p-valor,significativo (α=0.05)
+Local → FedAvg (no-IID),F1,25,12.13,30.41,20.0,0.0,5.960464477539063e-08,Sí
+Local → FedAvg (no-IID),F1nv,25,0.03,25.05,26.6,0.0,1.2279185361336645e-05,Sí
+Local → FedAvg (no-IID),FPR,25,0.01,0.04,0.0,10.5,0.0759333026198021,No
+Local → FedAvg (no-IID),dF1,25,71.42,53.14,-20.0,0.0,5.960464477539063e-08,Sí
+FedAvg (IID) → FedAvg (no-IID),F1,25,82.91,30.41,-53.85,0.0,1.2014327318053103e-05,Sí
+FedAvg (no-IID) → FedProx μ=0.01 (no-IID),F1,25,30.41,52.57,23.28,0.0,1.1992465089856906e-05,Sí
+FedAvg (no-IID) → FedProx μ=0.1 (no-IID),F1,25,30.41,51.28,21.32,0.0,1.2113104709718439e-05,Sí
+FedAvg (no-IID) → FedProx μ=0.01 (no-IID),F1nv,25,25.05,48.85,24.81,0.0,5.960464477539063e-08,Sí
+FedAvg (no-IID) → FedProx μ=0.1 (no-IID),F1nv,25,25.05,47.45,22.93,0.0,5.960464477539063e-08,Sí

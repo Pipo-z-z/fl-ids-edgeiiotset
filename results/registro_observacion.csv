@@ -1,0 +1,27 @@
+﻿Bloque,Indicador,Pre-test,Post-test,Diferencia (Δ),Variación relativa (%),Nivel post-test
+CLIENTE 1: Temperature_and_Humidity,Desempeño: F1-score macro (%),9.21,30.4,21.19,230.0,Bajo (Insuficiente)
+CLIENTE 1: Temperature_and_Humidity,Desempeño: Tasa de falsos positivos (%),0.02,0.15,0.13,N/A,Óptimo
+CLIENTE 1: Temperature_and_Humidity,Generalización: Brecha frente al modelo centralizado (pp),74.32,53.13,-21.19,-28.5,Deficiente
+CLIENTE 1: Temperature_and_Humidity,Generalización: F1 en ataques no vistos localmente (%),0.0,29.48,29.48,N/A,Bajo
+CLIENTE 2: Distance,Desempeño: F1-score macro (%),23.16,30.41,7.25,31.3,Bajo (Insuficiente)
+CLIENTE 2: Distance,Desempeño: Tasa de falsos positivos (%),0.02,0.01,-0.01,N/A,Óptimo
+CLIENTE 2: Distance,Generalización: Brecha frente al modelo centralizado (pp),60.39,53.14,-7.25,-12.0,Deficiente
+CLIENTE 2: Distance,Generalización: F1 en ataques no vistos localmente (%),0.0,9.32,9.32,N/A,Bajo
+CLIENTE 3: Water_Level,Desempeño: F1-score macro (%),12.81,30.42,17.6,137.3,Bajo (Insuficiente)
+CLIENTE 3: Water_Level,Desempeño: Tasa de falsos positivos (%),0.01,0.01,0.0,N/A,Óptimo
+CLIENTE 3: Water_Level,Generalización: Brecha frente al modelo centralizado (pp),70.73,53.13,-17.6,-24.9,Deficiente
+CLIENTE 3: Water_Level,Generalización: F1 en ataques no vistos localmente (%),0.0,29.45,29.45,N/A,Bajo
+CLIENTE 4: phValue,Desempeño: F1-score macro (%),7.92,30.42,22.5,284.1,Bajo (Insuficiente)
+CLIENTE 4: phValue,Desempeño: Tasa de falsos positivos (%),0.01,0.0,-0.01,N/A,Óptimo
+CLIENTE 4: phValue,Generalización: Brecha frente al modelo centralizado (pp),75.64,53.14,-22.5,-29.7,Deficiente
+CLIENTE 4: phValue,Generalización: F1 en ataques no vistos localmente (%),0.16,27.32,27.16,N/A,Bajo
+CLIENTE 5: Soil_Moisture,Desempeño: F1-score macro (%),7.53,30.41,22.88,303.8,Bajo (Insuficiente)
+CLIENTE 5: Soil_Moisture,Desempeño: Tasa de falsos positivos (%),0.0,0.01,0.01,N/A,Óptimo
+CLIENTE 5: Soil_Moisture,Generalización: Brecha frente al modelo centralizado (pp),76.03,53.14,-22.88,-30.1,Deficiente
+CLIENTE 5: Soil_Moisture,Generalización: F1 en ataques no vistos localmente (%),0.0,29.66,29.66,N/A,Bajo
+TOTALES,1. Desempeño: F1-score macro (%) (promedio),12.13,30.41,18.28,150.8,Bajo (Insuficiente)
+TOTALES,2. Desempeño: Tasa de falsos positivos (%) (promedio),0.01,0.04,0.02,N/A,Óptimo
+TOTALES,3. Generalización: Brecha frente al modelo centralizado (pp) (promedio),71.42,53.14,-18.28,-25.6,Deficiente
+TOTALES,4. Generalización: F1 en ataques no vistos localmente (%) (promedio),0.03,25.05,25.01,N/A,Bajo
+TOTALES,5. Volumen de comunicación acumulado (MB)*,11.9,5.51,-6.39,-53.7,Óptimo
+TOTALES,6. Tiempo de entrenamiento local promedio por ronda (s),0.07,0.07,-0.0,N/A,Óptimo
